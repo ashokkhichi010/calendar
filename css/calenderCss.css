@@ -1,0 +1,115 @@
+		.calender{
+			height: 300px;
+			width: 350px;
+			/*background-color: lightblue;*/
+		}
+		.row{
+			height: 16.666%;
+			width: 100%;
+			/*background-color: blueviolet;*/
+			display: flex;
+			margin-block: 2px;
+		}
+		.row-2{
+			height: 49px;
+			display: flex;
+			/*background-color: antiquewhite;*/
+			margin-block: 1%;
+			/*padding-top: 20px;*/
+			font-size: 25px;
+		}
+		.col{
+			width: 12.2857%;
+			height: 60%;
+			/*background-color: whitesmoke;*/
+			border-radius: 5px;
+			text-align: center;
+			padding: 3% 0;
+			font-size: 18px;
+			margin: 1%;
+		}
+		.col:hover {
+			background: lightblue;
+			cursor: pointer;
+		}
+		.col-2{
+			width: 25%;
+			/*padding: 1%;*/
+			background-color: aliceblue;
+			border-radius: 5px;
+			padding-top: 3px;
+			margin: 1%;
+		}
+		.col-2:hover {
+			background: lightblue;
+			cursor: pointer;
+		}
+		#heading div{
+			font-weight: 550;
+			cursor: default;
+			padding-bottom: 0px;
+		}
+		#heading div:hover {
+			background-color: transparent;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		.empty{
+			cursor: default;
+		}
+		.empty:hover {
+			background: inherit;
+		}
+		.btn{
+			padding-top: 4%;
+			text-align: center;
+		}
+		.btn:hover {
+			background: #dce3ff;
+			border-radius: 5%;
+			cursor: pointer;
+		}
+		input{
+			border-color: white;
+		}
+		#year{
+			width: 25%;
+		}
+		#month{
+			width: 50%;
+		}
+		#pre-next{
+			display: flex;
+		}
+		#previous{
+			background-color: transparent;
+			border-color: transparent;
+			width: 50%;
+		}
+		#next{
+			border-color: transparent;
+			background-color: transparent;
+			width: 50%;
+		}
+		#today{
+			border-color: transparent;
+			background-color: transparent;
+			width: 100%;
+		}
+		#previous:hover {
+			background: #dce3ff;
+		}
+		#next:hover {
+			background: #dce3ff;
+		}
+		#today:hover {
+			background: #dce3ff;
+		}
+		#years{
+			display: none;
+		}
+		#months{
+			display: none;
+		}
